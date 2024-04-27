@@ -1,0 +1,486 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(219, 215, 215);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.box{
+    width: 95%;
+    height: 97%;
+    background-color: white;
+   
+} 
+.nav{
+    width: 100%;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    padding-inline:80px ;
+    padding-block: 20px;
+}
+.box .nav span{
+   padding-left: 650px;
+
+}
+
+.box .nav span .btn{ 
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 50px solid black;
+}
+.box .nav button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(7, 6, 6);
+    color: rgb(252, 248, 248);
+    border-radius: 50px;
+    border: none;
+}
+.box .nav span i{
+    margin-left: 20px;
+}
+.box .center{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.box .center h1{
+    font-size: 45px;
+    padding-top: 30px;
+}
+.box .center p{
+    padding-block: 20px;
+    font-size:20px ;
+}
+
+.box .center span input{
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border-radius:50px;
+    color: black;
+    text-align: center;
+}
+.box .center span button{
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+.box h4{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.box h5{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+.last-section{
+width: 100%;
+height: auto;
+
+    
+
+}
+.last-section .card-section{
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.last-section .card-section .cards{
+    width: 250px;
+    height: 240px;
+    background-color: rgb(30, 194, 145);
+    border-radius: 30px;
+    padding-block: 25px;
+    padding-inline: 30px;
+}
+
+.last-section .cards h3{
+    padding-top: 20px;
+}
+    .card-section .cards p{
+        font-size: 13px;
+        padding-top: 10px;
+
+}
+.card-section .cards hr{
+  margin-top: 10px;
+}
+.card-section .cards span{
+    display: flex;
+    justify-content: space-between;
+}
+.card-section .cards span i{
+    font-size: 30px;
+}
+
+.last-section .card-section .cards-1{
+    width: 250px;
+    height: 240px;
+    background-color: rgb(3, 3, 3);
+    border-radius: 30px;
+    padding-block: 25px;
+    padding-inline: 30px;
+    color: white;
+}
+.last-section .cards-1 h3{
+    padding-top: 20px;
+}
+    .card-section .cards-1 p{
+        font-size: 13px;
+        padding-top: 10px;
+
+}
+.card-section .cards-1 hr{
+  margin-top: 10px;
+}
+.card-section .cards-1 span{
+    display: flex;
+    justify-content: space-between;
+}
+.card-section .cards-1 span i{
+    font-size: 30px;
+}
+.last-section .card-section .cards-2{
+    width: 250px;
+    height: 240px;
+    background-color: rgb(207, 128, 218);
+    border-radius: 30px;
+    padding-block: 25px;
+    padding-inline: 30px;
+    color: rgb(5, 5, 5);
+}
+.last-section .cards-2 h3{
+    padding-top: 20px;
+}
+    .card-section .cards-2 p{
+        font-size: 13px;
+        padding-top: 10px;
+
+}
+.card-section .cards-2 hr{
+  margin-top: 10px;
+}
+.card-section .cards-2 span{
+    display: flex;
+    justify-content: space-between;
+}
+.card-section .cards-2 span i{
+    font-size: 30px;
+}
+.last-section .card-section .cards-3{
+    width: 250px;
+    height: 240px;
+    background-color: rgb(224, 218, 135);
+    border-radius: 30px;
+    padding-block: 25px;
+    padding-inline: 30px;
+    color: rgb(5, 5, 5);
+}
+.last-section .cards-3 h3{
+    padding-top: 20px;
+}
+    .card-section .cards-3 p{
+        font-size: 13px;
+        padding-top: 10px;
+
+}
+.card-section .cards-3 hr{
+  margin-top: 10px;
+}
+.card-section .cards-3 span{
+    display: flex;
+    justify-content: space-between;
+}
+.card-section .cards-3 span i{
+    font-size: 30px;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+
+    .main-container{
+        width: 50%;
+        height: auto;
+        background-color: rgb(219, 215, 215);
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    .box{
+        width: 95%;
+        height: auto;
+        background-color: white;
+       
+    } 
+    .nav{
+        width: 100%;
+        height:50px;
+        display: flex;
+        align-items: center;
+        justify-content:start;
+        padding-inline:20px ;
+        padding-block: 20px;
+    }
+    .box .nav span{
+       padding-left:0px;
+    
+    }
+    
+    .box .nav span .btn{ 
+        width: 70px;
+        height: 30px;
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+        border-radius: 50px solid black;
+    }
+    .box .nav button{
+       display: none;
+    }
+    .box .nav span i{
+       display: flex;
+       align-items: center;
+       justify-content: end;
+       padding-left: 300px;
+    }
+    .box .center{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .box .center h1{
+        font-size: 40px;
+        padding-top:  40px;
+    }
+    .box .center p{
+        padding-block: 10px;
+        font-size:20px ;
+    }
+    .box .center span{
+        padding-block: 10px;
+    }
+    
+    .box .center span input{
+        width: 200px;
+        height: 30px;
+        background-color: white;
+        border-radius:50px;
+        color: black;
+        text-align: center;
+    }
+    .box .center span button{
+        width: 150px;
+        height: 30px;
+        background-color: black;
+        color: white;
+        border-radius: 50px;
+        border: none;
+    }
+    .box h4{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        font-size: 20px;
+        padding-top: 30px;
+        padding-left: 80px;
+    }
+    .box h5{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-right: 80px;
+        margin-bottom: 20px;
+    }
+    .last-section{
+    width: 100%;
+    height: auto;
+    
+        
+    
+    }
+    .last-section .card-section{
+        width: 100%;
+        height: 15%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        
+    }
+    .last-section .card-section .cards{
+        width: 550px;
+        height: 240px;
+        background-color: rgb(30, 194, 145);
+        border-radius: 30px;
+        padding-block: 25px;
+        padding-inline: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .last-section .cards h3{
+        padding-top: 20px;
+        font-size: 25px;
+    }
+        .card-section .cards p{
+            font-size: 15px;
+            padding-top: 10px;
+    
+    }
+    .card-section .cards p br{
+        display: none;
+    }
+    .card-section .cards hr{
+      margin-top: 10px;
+    }
+    .card-section .cards span{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-section .cards span i{
+        font-size: 30px;
+    }
+    
+    .last-section .card-section .cards-1{
+        width: 550px;
+        height: 240px;
+        background-color: rgb(3, 3, 3);
+        border-radius: 30px;
+        padding-block: 25px;
+        padding-inline: 30px;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .last-section .cards-1 h3{
+        padding-top: 20px;
+        font-size: 25px;
+    }
+        .card-section .cards-1 p{
+            font-size: 15px;
+            padding-top: 10px;
+    
+    }
+    .card-section .cards-1 p br{
+        display: none;
+    }
+    .card-section .cards-1 hr{
+      margin-top: 10px;
+    }
+    .card-section .cards-1 span{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-section .cards-1 span i{
+        font-size: 30px;
+    }
+    .last-section .card-section .cards-2{
+        width: 550px;
+        height: 240px;
+        background-color: rgb(207, 128, 218);
+        border-radius: 30px;
+        padding-block: 25px;
+        padding-inline: 30px;
+        color: rgb(5, 5, 5);
+        margin-bottom: 20px;
+    }
+    .last-section .cards-2 h3{
+        padding-top: 20px;
+        font-size: 25px;
+    }
+        .card-section .cards-2 p{
+            font-size: 15px;
+            padding-top: 10px;
+            
+    
+    }
+    .card-section .cards-2 p br{
+        display: none;
+    }
+    .card-section .cards-2 hr{
+      margin-top: 10px;
+    }
+    .card-section .cards-2 span{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-section .cards-2 span i{
+        font-size: 30px;
+    }
+    .last-section .card-section .cards-3{
+        width: 550px;
+        height: 240px;
+        background-color: rgb(224, 218, 135);
+        border-radius: 30px;
+        padding-block: 25px;
+        padding-inline: 30px;
+        color: rgb(5, 5, 5);
+        margin-bottom: 20px;
+    }
+    .last-section .cards-3 h3{
+        padding-top: 20px;
+        font-size: 25px;
+    }
+        .card-section .cards-3 p{
+            font-size: 15px;
+            padding-top: 10px;
+    
+    }
+    .card-section .cards-3 p br{
+        display: none;
+    }
+    .card-section .cards-3 hr{
+      margin-top: 10px;
+    }
+    .card-section .cards-3 span{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-section .cards-3 span i{
+        font-size: 30px;
+    }
+    
+   
+
+    
+
+
+    
+}
